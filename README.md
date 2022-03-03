@@ -9,7 +9,12 @@ The project's main use case will be predicting the lifespan of online listings i
 
 ### Data
 
-We identified two datasets seem appropriate: First, the replication dataset of [Breidenbach/Schaffner (2020)](https://www.degruyter.com/document/doi/10.1515/ger-2019-0126/html?lang=en) which covers data from the biggest German rental ad platform (Immobilienscout24) in the period from 2007 and 2020. The second possible data set is publicly available on [Kaggle](https://www.kaggle.com/corrieaar/apartment-rental-offers-in-germany). 
+
+For this project, we will be using a dataset called \textit{Real estate data for Germany (RWI-GEO-RED)}, described in Breidenbach and Schaffner's paper \cite{breidenbach2020real}. The dataset consists of 87 variables describing residential commercial real estate listings from ImmobilienScout24 \url{www.immobilienscout24.de}, considered the largest online platform for real estate offers in Germany. These variables describe not only the property being listed (e.g. surface area, number of rooms, number of bathrooms, etc.) but also contains information about the ad itself (e.g. days of availability, number of hits, etc). Table 1 provides a glimpse into the variables contained in the dataset and their corresponding sample size.
+
+In order to obtain access to the dataset, we must submit a formal request to the dataset managers. We are currently working on it and expect to send the request in the coming days. If for some unforeseeable reason, we are unable to access the proposed data set, there is an alternative dataset we can use available here in Kaggle: \url{https://www.kaggle.com/corrieaar/apartment-rental-offers-in-germany}. We reckon a Kaggle dataset is not the best and most professional option, but we would only use this as a plan B.
+
+With respect to the project's need for specialized hardware -such as access to a GPU farm or the like- or computational tools -such as cloud computing beyond Google Workspace-, we are at this point in time unaware of any particular requirements. However, we believe it is a good idea to become acquainted with services such as DataBricks or Amazon Web Services, so processing our project with the free versions of one of these services could become part of the learning objectives if time permits.
 
 ### Contributors
 
