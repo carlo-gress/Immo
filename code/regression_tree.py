@@ -1,5 +1,3 @@
-### Training and evaluating a regression tree
-
 """
 This script preprocesses, trains and evaluates a regression tree
 """
