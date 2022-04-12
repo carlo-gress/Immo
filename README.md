@@ -19,5 +19,5 @@ With respect to the project's need for specialized hardware -such as access to a
 
 - [Carlo Greß](https://github.com/carlo-gress)
 - [Wojciech Kuznicki](https://github.com/wkuznicki)
-- [Santiago Sordo Ruz](https://github.com/odros)
+- [Santiago Sordo](https://github.com/odros)
 
