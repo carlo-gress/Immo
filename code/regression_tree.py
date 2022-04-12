@@ -1,5 +1,5 @@
 """
-This script preprocesses, trains and evaluates a regression tree
+This script preprocesses, trains and evaluates a decision tree regressor and a random forest regressor
 """
 
 # Import modules
@@ -8,6 +8,7 @@ import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeRegressor
+from sklearn.ensemble import RandomForestRegressor 
 from sklearn.metrics import mean_squared_error
 
 # Read the data
@@ -32,11 +33,16 @@ y = data.loc[:, 'hits']
 ## Split the data
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.2, random_state = 42)
 
-## Train
+## Train, predict and evaluate a decision tree regressor
 tree_reg = DecisionTreeRegressor()
 tree_reg.fit(X_train, y_train)
-
-## Predict and evaluate 
-y_predictions = tree_reg.predict(X_test)
-tree_mse = mean_squared_error(y_test, y_predictions)
+tree_predictions = tree_reg.predict(X_test)
+tree_mse = mean_squared_error(y_test, tree_predictions)
 tree_rmse = np.sqrt(tree_mse)
+
+## Train, predict and evaluate a andom forest regressor
+forest_reg = RandomForestRegressor()
+forest_reg.fit(X_train, y_train)
+forest_predictions = forest_reg.predict(X_test)
+forest_mse = mean_squared_error(y_test, forest_predictions)
+forest_rmse = np.sqrt(forest_mse)
