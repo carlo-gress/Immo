@@ -39,3 +39,4 @@ tree_reg.fit(X_train, y_train)
 ## Predict and evaluate 
 y_predictions = tree_reg.predict(X_test)
 tree_mse = mean_squared_error(y_test, y_predictions)
+tree_rmse = np.sqrt(tree_mse)
