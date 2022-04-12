@@ -1,5 +1,4 @@
-# Predicting the Number of Hits of Online Listings in the German Housing Market
-
+# Predicting the Number of Hits of ImmobilienScout24 Listings
 
 ### General Information 
 
