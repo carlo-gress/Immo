@@ -60,7 +60,7 @@ poisson_mse = mean_squared_error(y_test, poisson_predictions)
 poisson_rmse = np.sqrt(poisson_mse)
 poisson_rmse
 
-# Decision tree regressor
+# Regression tree regressor
 tree_reg = DecisionTreeRegressor()
 start = time.process_time()
 tree_reg.fit(X_train, y_train)
