@@ -17,7 +17,10 @@ With respect to the project's need for specialized hardware -such as access to a
 
 ### Models
 
-We decided to go for, in addition to a baseline linear regression model, four additional regressors: Poisson, regression tree, random forest and multi-layer perceptron. These were chosen because of their ability to solve regression tasks and their availability in the scikitlearn module, which we considered a good place to start before going into more sophisticated options like TensorFlow.
+We decided to go for, in addition to a baseline linear regression model, four additional regressors: Poisson, regression tree, random forest and multi-layer perceptron. These were chosen because of their ability to solve regression tasks and their availability in the scikitlearn module, which we considered a good place to start before going into more sophisticated options like TensorFlow. Preliminary results from these models are displayed below.
+
+<img width="273" alt="image" src="https://user-images.githubusercontent.com/72525078/163332234-316ce6cd-3d8e-4747-821c-d0640566aa68.png">
+
 
 ### Contributors
 
