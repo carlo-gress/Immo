@@ -21,6 +21,8 @@ We decided to go for, in addition to a baseline linear regression model, four ad
 
 <img width="273" alt="image" src="https://user-images.githubusercontent.com/72525078/163332234-316ce6cd-3d8e-4747-821c-d0640566aa68.png">
 
+In the further course of the project, we decided to also add a Support Vector Machine model as well as an ensemble that combines the above described model. Given that previous literature on predicting clicks on ads were able to increase accuracy when combining multiple models, this step seems reasonable for improving our predicitions. 
+
 
 ### Contributors
 
