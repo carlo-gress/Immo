@@ -60,7 +60,6 @@ support_runtime = end - start
 support_predictions = support.predict(X_test)
 support_rmse = np.sqrt(mean_squared_error(y_test, support_predictions))
 
-
 # Multi-layer perceptron regressor
 perceptron = MLPRegressor(hidden_layer_sizes = (1), random_state = 11)
 start = time.process_time()
